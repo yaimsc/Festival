@@ -93,6 +93,8 @@ public class Main {
 		
 		festival2017.mostrarInfo();
 		
+		
+		festival2017.addActuacion("Berri Txarrak", 32); 
 	}
 
 }
