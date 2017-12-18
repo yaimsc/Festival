@@ -84,19 +84,33 @@ public class Main {
 		
 		Actuacion a4 = new Actuacion(); 
 		
-		a4.setNombreGrupo("coldplay");
-		a4.setDuracion(120);
+			a4.setNombreGrupo("coldplay");
+			a4.setDuracion(120);
 		
 		festival2017.addActuacion(a4);
 		
 		festival2017.addActuacion("linkin park", 120); 
 		
-		festival2017.mostrarInfo();
-		
-		
 		festival2017.addActuacion("Berri Txarrak", 32); 
 		
 		festival2017.addActuacion("3o seconds to Mars", 100);
+		
+			festival2017.mostrarInfo();
+		
+		//eliminar un grupo del festival
+		
+		System.out.println("Introduce un grupo para eliminar del festival");
+		
+			String grupoEliminado = lector.nextLine();
+		
+			grupoEliminado = lector.nextLine(); 
+		
+		festival2017.eliminarActuacion(grupoEliminado); 
+		
+		//cambiar duracion de una actuacion del festival
+		
+		festival2017.cambiarDuracionActuacion("linkin park", 150);
+		
 	}
 
 }
