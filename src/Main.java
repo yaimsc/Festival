@@ -95,6 +95,8 @@ public class Main {
 		
 		
 		festival2017.addActuacion("Berri Txarrak", 32); 
+		
+		festival2017.addActuacion("3o seconds to Mars", 100);
 	}
 
 }
